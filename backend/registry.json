@@ -1,0 +1,49 @@
+{
+  "Healthcare": [
+    {
+      "key": "fhir_fuseki",
+      "label": "FHIR (AE) Fuseki",
+      "kind": "fuseki",
+      "endpoint": "__ENV_FUSEKI_FHIR_URL__",
+      "graph": "__ENV_FUSEKI_FHIR_GRAPH__",
+      "jurisdictions": [
+        "AE",
+        "wd:Q878"
+      ]
+    },
+    {
+      "key": "loinc_fuseki",
+      "label": "LOINC Fuseki",
+      "kind": "fuseki",
+      "endpoint": "__ENV_FUSEKI_LOINC_URL__",
+      "graph": "__ENV_FUSEKI_LOINC_GRAPH__",
+      "jurisdictions": [
+        "AE"
+      ]
+    },
+    {
+      "key": "snomed_graphdb",
+      "label": "SNOMED GraphDB",
+      "kind": "graphdb",
+      "endpoint": "__ENV_GRAPHDB_SNOMED_URL__",
+      "graph": "__ENV_GRAPHDB_SNOMED_GRAPH__",
+      "jurisdictions": [
+        "GB",
+        "wd:Q145"
+      ]
+    },
+    {
+      "key": "fallback_local",
+      "label": "Local Fuseki (ds)",
+      "kind": "fuseki",
+      "endpoint": "http://localhost:3030/ds",
+      "graph": "",
+      "jurisdictions": [
+        "AE",
+        "wd:Q878",
+        "GB",
+        "wd:Q145"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+
+:root { --radius:14px; --shadow-1:0 1px 2px rgba(0,0,0,.3); --shadow-2:0 6px 18px rgba(0,0,0,.35); }
+.theme-dark { background: var(--color-bg); color: var(--color-text); }
+.card { background: var(--color-panel); border:1px solid var(--color-border); border-radius: var(--radius); box-shadow: var(--shadow-1); }
+.button-primary { background: var(--primary-500); color:#101215; border-radius: var(--radius); padding:.6rem 1rem; border:0; }
+.button-primary:hover { background: var(--primary-700); }
+.badge-gold { background: var(--metal-gold); color:#111; padding:.2rem .5rem; border-radius:999px; }
+.border-sub-10 { border-color: var(--subsector-10); }
+.bg-sub-20 { background: var(--subsector-20); }
+.text-sub-30 { color: var(--subsector-30); }
+
+
+[data-theme="energy"] {
+  --color-bg: #140B0C;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #EF8885;
+  --primary-500: #E53935;
+  --primary-700: #942522;
+  --primary-900: #5B1615;
+  --subsector-10: #E74C49;
+  --subsector-20: #EA605D;
+  --subsector-30: #EC7471;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="materials"] {
+  --color-bg: #120D09;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #FCBA66;
+  --primary-500: #FB8C00;
+  --primary-700: #A35B00;
+  --primary-900: #643800;
+  --subsector-10: #FB9719;
+  --subsector-20: #FBA333;
+  --subsector-30: #FCAE4C;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="industrials"] {
+  --color-bg: #121006;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #FDE785;
+  --primary-500: #FDD835;
+  --primary-700: #A48C22;
+  --primary-900: #655615;
+  --subsector-10: #FDDB49;
+  --subsector-20: #FDDF5D;
+  --subsector-30: #FDE371;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="consumer_discretionary"] {
+  --color-bg: #0A110D;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #8EC690;
+  --primary-500: #43A047;
+  --primary-700: #2B682E;
+  --primary-900: #1A401C;
+  --subsector-10: #55A959;
+  --subsector-20: #68B36B;
+  --subsector-30: #7BBC7E;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="health_care"] {
+  --color-bg: #081113;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #66CDD9;
+  --primary-500: #00ACC1;
+  --primary-700: #006F7D;
+  --primary-900: #00444D;
+  --subsector-10: #19B4C7;
+  --subsector-20: #33BCCD;
+  --subsector-30: #4CC4D3;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="financials"] {
+  --color-bg: #0A0B14;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #8891CC;
+  --primary-500: #3949AB;
+  --primary-700: #252F6F;
+  --primary-900: #161D44;
+  --subsector-10: #4C5BB3;
+  --subsector-20: #606DBB;
+  --subsector-30: #747FC4;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="information_technology"] {
+  --color-bg: #120A14;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #BB7BCC;
+  --primary-500: #8E24AA;
+  --primary-700: #5C176E;
+  --primary-900: #380E44;
+  --subsector-10: #9939B2;
+  --subsector-20: #A44FBB;
+  --subsector-30: #AF65C3;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="communication_services"] {
+  --color-bg: #140A10;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #F38CAF;
+  --primary-500: #EC407A;
+  --primary-700: #99294F;
+  --primary-900: #5E1930;
+  --subsector-10: #ED5387;
+  --subsector-20: #EF6694;
+  --subsector-30: #F179A1;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="utilities"] {
+  --color-bg: #0A1210;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #66B8AF;
+  --primary-500: #00897B;
+  --primary-700: #00594F;
+  --primary-900: #003631;
+  --subsector-10: #199488;
+  --subsector-20: #33A095;
+  --subsector-30: #4CACA2;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}
+
+[data-theme="real_estate"] {
+  --color-bg: #120E0C;
+  --color-panel: #1A1D22;
+  --color-elevated: #22262D;
+  --color-muted: #2B3038;
+  --color-border: #353B45;
+  --color-text: #E9EDF1;
+  --color-text-muted: #B5BDC9;
+  --primary-300: #A7938D;
+  --primary-500: #6D4C41;
+  --primary-700: #46312A;
+  --primary-900: #2B1E1A;
+  --subsector-10: #7B5D54;
+  --subsector-20: #8A6F67;
+  --subsector-30: #98817A;
+  --metal-gold: #C9A227;
+  --metal-silver: #C0C0C0;
+  --metal-platinum: #E5E4E2;
+  --metal-copper: #B87333;
+  --metal-bronze: #CD7F32;
+}

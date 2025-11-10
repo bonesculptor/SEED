@@ -1,0 +1,402 @@
+{
+  "energy": {
+    "meta": {
+      "sector": "Energy"
+    },
+    "color": {
+      "primary": {
+        "300": "#EF8885",
+        "500": "#E53935",
+        "700": "#942522",
+        "900": "#5B1615"
+      },
+      "surface": {
+        "bg": "#140B0C",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#E74C49",
+        "sub20": "#EA605D",
+        "sub30": "#EC7471"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "materials": {
+    "meta": {
+      "sector": "Materials"
+    },
+    "color": {
+      "primary": {
+        "300": "#FCBA66",
+        "500": "#FB8C00",
+        "700": "#A35B00",
+        "900": "#643800"
+      },
+      "surface": {
+        "bg": "#120D09",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#FB9719",
+        "sub20": "#FBA333",
+        "sub30": "#FCAE4C"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "industrials": {
+    "meta": {
+      "sector": "Industrials"
+    },
+    "color": {
+      "primary": {
+        "300": "#FDE785",
+        "500": "#FDD835",
+        "700": "#A48C22",
+        "900": "#655615"
+      },
+      "surface": {
+        "bg": "#121006",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#FDDB49",
+        "sub20": "#FDDF5D",
+        "sub30": "#FDE371"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "consumer_discretionary": {
+    "meta": {
+      "sector": "Consumer Discretionary"
+    },
+    "color": {
+      "primary": {
+        "300": "#8EC690",
+        "500": "#43A047",
+        "700": "#2B682E",
+        "900": "#1A401C"
+      },
+      "surface": {
+        "bg": "#0A110D",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#55A959",
+        "sub20": "#68B36B",
+        "sub30": "#7BBC7E"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "health_care": {
+    "meta": {
+      "sector": "Health Care"
+    },
+    "color": {
+      "primary": {
+        "300": "#66CDD9",
+        "500": "#00ACC1",
+        "700": "#006F7D",
+        "900": "#00444D"
+      },
+      "surface": {
+        "bg": "#081113",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#19B4C7",
+        "sub20": "#33BCCD",
+        "sub30": "#4CC4D3"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "financials": {
+    "meta": {
+      "sector": "Financials"
+    },
+    "color": {
+      "primary": {
+        "300": "#8891CC",
+        "500": "#3949AB",
+        "700": "#252F6F",
+        "900": "#161D44"
+      },
+      "surface": {
+        "bg": "#0A0B14",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#4C5BB3",
+        "sub20": "#606DBB",
+        "sub30": "#747FC4"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "information_technology": {
+    "meta": {
+      "sector": "Information Technology"
+    },
+    "color": {
+      "primary": {
+        "300": "#BB7BCC",
+        "500": "#8E24AA",
+        "700": "#5C176E",
+        "900": "#380E44"
+      },
+      "surface": {
+        "bg": "#120A14",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#9939B2",
+        "sub20": "#A44FBB",
+        "sub30": "#AF65C3"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "communication_services": {
+    "meta": {
+      "sector": "Communication Services"
+    },
+    "color": {
+      "primary": {
+        "300": "#F38CAF",
+        "500": "#EC407A",
+        "700": "#99294F",
+        "900": "#5E1930"
+      },
+      "surface": {
+        "bg": "#140A10",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#ED5387",
+        "sub20": "#EF6694",
+        "sub30": "#F179A1"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "utilities": {
+    "meta": {
+      "sector": "Utilities"
+    },
+    "color": {
+      "primary": {
+        "300": "#66B8AF",
+        "500": "#00897B",
+        "700": "#00594F",
+        "900": "#003631"
+      },
+      "surface": {
+        "bg": "#0A1210",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#199488",
+        "sub20": "#33A095",
+        "sub30": "#4CACA2"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  },
+  "real_estate": {
+    "meta": {
+      "sector": "Real Estate"
+    },
+    "color": {
+      "primary": {
+        "300": "#A7938D",
+        "500": "#6D4C41",
+        "700": "#46312A",
+        "900": "#2B1E1A"
+      },
+      "surface": {
+        "bg": "#120E0C",
+        "panel": "#1A1D22",
+        "elevated": "#22262D",
+        "muted": "#2B3038",
+        "border": "#353B45",
+        "text": "#E9EDF1",
+        "text_muted": "#B5BDC9"
+      },
+      "subsectors": {
+        "sub10": "#7B5D54",
+        "sub20": "#8A6F67",
+        "sub30": "#98817A"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "danger": "#EF5350",
+        "info": "#29B6F6"
+      },
+      "metals": {
+        "gold": "#C9A227",
+        "silver": "#C0C0C0",
+        "platinum": "#E5E4E2",
+        "copper": "#B87333",
+        "bronze": "#CD7F32"
+      }
+    }
+  }
+}

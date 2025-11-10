@@ -1,0 +1,26 @@
+{
+  "Complex": {
+    "HOTL": {
+      "decision_tree": [
+        {
+          "if": {
+            "any_alerts": true
+          },
+          "then": "review"
+        },
+        {
+          "if": {
+            "all_clear": true
+          },
+          "then": "auto_deploy"
+        }
+      ],
+      "drift_thresholds": {
+        "psi_type": 0.18,
+        "kl_type": 0.11,
+        "js_type": 0.11,
+        "psi_num": 0.18
+      }
+    }
+  }
+}

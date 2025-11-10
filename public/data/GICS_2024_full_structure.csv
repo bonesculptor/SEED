@@ -1,0 +1,45 @@
+GICS_Code,Sector,Industry_Group,Industry,Sub_Industry
+10101010,Energy,Energy Equipment & Services,Oil & Gas Drilling,Oil & Gas Drilling
+10101020,Energy,Energy Equipment & Services,Oil & Gas Equipment & Services,Oil & Gas Equipment & Services
+10102010,Energy,"Oil, Gas & Consumable Fuels",Integrated Oil & Gas,Integrated Oil & Gas
+10102020,Energy,"Oil, Gas & Consumable Fuels",Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+10102030,Energy,"Oil, Gas & Consumable Fuels",Oil & Gas Refining & Marketing,Oil & Gas Refining & Marketing
+10102040,Energy,"Oil, Gas & Consumable Fuels",Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+10102050,Energy,"Oil, Gas & Consumable Fuels",Coal & Consumable Fuels,Coal & Consumable Fuels
+15101010,Materials,Chemicals,Commodity Chemicals,Commodity Chemicals
+15101020,Materials,Chemicals,Specialty Chemicals,Specialty Chemicals
+15102010,Materials,Construction Materials,Construction Materials,Construction Materials
+15103010,Materials,Containers & Packaging,Metal & Glass Containers,Metal & Glass Containers
+15103020,Materials,Containers & Packaging,Paper Packaging,Paper Packaging
+15104010,Materials,Metals & Mining,Aluminum,Aluminum
+15104020,Materials,Metals & Mining,Diversified Metals & Mining,Diversified Metals & Mining
+15104025,Materials,Metals & Mining,Copper,Copper
+15104030,Materials,Metals & Mining,Gold,Gold
+15104040,Materials,Metals & Mining,Precious Metals & Minerals,Precious Metals & Minerals
+15104045,Materials,Metals & Mining,Silver,Silver
+15105010,Materials,Paper & Forest Products,Forest Products,Forest Products
+15105020,Materials,Paper & Forest Products,Paper Products,Paper Products
+20101010,Industrials,Capital Goods,Aerospace & Defense,Aerospace & Defense
+20102010,Industrials,Capital Goods,Building Products,Building Products
+20103010,Industrials,Capital Goods,Construction & Engineering,Construction & Engineering
+20104010,Industrials,Capital Goods,Electrical Equipment,Electrical Components & Equipment
+20104020,Industrials,Capital Goods,Heavy Electrical Equipment,Heavy Electrical Equipment
+20105010,Industrials,Capital Goods,Industrial Conglomerates,Industrial Conglomerates
+20106010,Industrials,Capital Goods,Machinery,Construction Machinery & Heavy Trucks
+20106015,Industrials,Capital Goods,Machinery,Agricultural & Farm Machinery
+20107010,Industrials,Capital Goods,Trading Companies & Distributors,Trading Companies & Distributors
+45101010,Information Technology,Software & Services,IT Consulting & Other Services,IT Consulting & Other Services
+45102010,Information Technology,Software & Services,Internet Services & Infrastructure,Internet Services & Infrastructure
+45103010,Information Technology,Software & Services,Application Software,Application Software
+45103020,Information Technology,Software & Services,Systems Software,Systems Software
+45201010,Information Technology,Technology Hardware & Equipment,Communications Equipment,Communications Equipment
+45202010,Information Technology,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+45203010,Information Technology,Technology Hardware & Equipment,"Electronic Equipment, Instruments & Components","Electronic Equipment, Instruments & Components"
+45301010,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,Semiconductor Equipment
+45301020,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors,Semiconductors
+35101010,Health Care,Health Care Equipment & Services,Health Care Equipment,Health Care Equipment
+35102010,Health Care,Health Care Equipment & Services,Health Care Supplies,Health Care Supplies
+35103010,Health Care,Health Care Equipment & Services,Health Care Providers & Services,Health Care Services
+35201010,Health Care,"Pharmaceuticals, Biotechnology & Life Sciences",Biotechnology,Biotechnology
+35202010,Health Care,"Pharmaceuticals, Biotechnology & Life Sciences",Pharmaceuticals,Pharmaceuticals
+35203010,Health Care,"Pharmaceuticals, Biotechnology & Life Sciences",Life Sciences Tools & Services,Life Sciences Tools & Services
